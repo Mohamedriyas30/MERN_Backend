@@ -30,4 +30,4 @@ enrollmentSchema.virtual('completionPct').get(function () {
 
 enrollmentSchema.set('toJSON', { virtuals: true });
 
-module.exports = mongoose.model('Enrollment', enrollmentSchema);
+module.exports = mongoose.models.Enrollment || mongoose.model('Enrollment', enrollmentSchema);

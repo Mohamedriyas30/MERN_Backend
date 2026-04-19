@@ -9,7 +9,7 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:3000',              // local frontend
-    'https://mern-frontend.vercel.app'    // 🔁 replace with your real Vercel URL
+    'https://mern-frontend-flame-five.vercel.app'   // 🔁 replace with your real Vercel URL
   ],
   credentials: true
 }));
